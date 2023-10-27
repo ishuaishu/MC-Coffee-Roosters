@@ -1,0 +1,126 @@
+body{
+    background-color: chocolate;
+    color: white;
+    font-size:16px;
+    line-height: 1.6em;
+    margin: 0;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+
+.container{
+        margin: auto;
+        overflow: hidden;
+        width: 82%;
+}
+
+#mainheader{
+  	  background-color:brown;
+        color:whitesmoke;
+       font-style: italic;
+       font-family:Membra;
+       
+}
+
+#navbar{
+    background-color: black;
+    color: bisque;
+
+}
+
+#navbar ul{
+    list-style:none;
+    padding: 0px;
+}
+
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color:blueviolet;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#showcase{
+   background-image: url(stretched-2400-1350-508562.jpg);
+   color:white;
+   min-height:300px;
+   width: 1550px;
+   background-position: center;
+   font-size: 25px;
+   background-repeat:no-repeat;
+   margin-bottom: 30px;
+}
+
+#showcase h1{
+    font-size: 50;
+    line-height: 1.6m;
+    padding-top: 30px;
+}
+
+#main{
+	float: left;
+	width: 30%;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+#sidebar {
+  	float: right;
+  	box-sizing: border-box;
+  	background-color: green;
+  	color: white;
+  	padding: 0 20px;
+  	width: 30%;
+}
+
+#sidebar button{
+	display: inline-block;
+  border-radius: 3px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+
+#mainfooter{
+ 	background-color:black;
+    color: white;
+    padding-top: 350px;
+    text-align: center;
+
+}
+
+
+@media (max-width: 600px;) {
+		#main{
+			width: 100;
+			float: none;
+		}
+
+		#sidebar{
+			width: 100;
+			float: none;
+		}
+
+	    #showcase{
+			width: 100;
+			float: none;
+		}
+
+}
+
+
+
+
+
+
