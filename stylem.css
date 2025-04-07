@@ -1,0 +1,101 @@
+body {
+  background-image: url('R.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.menu-section {
+  margin-bottom: 30px;
+}
+
+.menu-section h2 {
+  font-size: 1.8em;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.menu-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form label {
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.order-form input, .order-form select, .order-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.order-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.1em;
+  padding: 12px;
+}
+
+.order-form input[type="submit"]:hover {
+  background-color: #555;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop : Buy Coffee, Gifts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('backgroundgif.jpg');
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      color: white;
+      padding: 10px;
+    }
+
+    h1 {
+      background-color: brown;
+    }
+
+    h2 {
+      background-color: #2f4f4f;
+    }
+
+    h3 {
+      background-color: #ff6347;
+    }
+
+    .section {
+      padding: 30px 10%;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    .section ul {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    }
+
+    .section li {
+      width: 20%;
+      margin: 10px;
+      text-align: center;
+      background-color: #333;
+      padding: 10px;
+      border-radius: 8px;
+      color: white;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .section img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .section a {
+      text-decoration: none;
+      color: tomato;
+      font-weight: bold;
+    }
+
+    .order-form {
+      padding: 30px;
+      background-color: rgba(255, 165, 0, 0.9);
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .order-form h2 {
+      font-family: 'Cursive', sans-serif;
+    }
+
+    .order-form input, .order-form select, .order-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .order-form input[type="submit"] {
+      background-color: #ff6347;
+      color: white;
+      cursor: pointer;
+    }
+
+    .order-form input[type="submit"]:hover {
+      background-color: #ff4500;
+    }
+
+    .button {
+      background-color: #32cd32;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background-color: #228b22;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #2f4f4f;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Shop: Buy Coffee, Gifts</h1>
+  </header>
+
+  <section class="section">
+    <h2>Coffee</h2>
+    <h3>Check out our selection of coffee blends!</h3>
+    <ul>
+      <li>
+        <img src="1co.jpg" alt="Dark Forest Coffee Powder">
+        <a href="#">Dark Forest Coffee Powder: ₹699</a>
+      </li>
+      <li>
+        <img src="5co.jpg" alt="Coffee Capsulate estate blend">
+        <a href="#">Coffee Capsulate Estate Blend: ₹799</a>
+      </li>
+      <li>
+        <img src="3co.jpg" alt="Filta Fresh (classic)">
+        <a href="#">Filta Fresh (classic): ₹499</a>
+      </li>
+      <li>
+        <img src="4co.jpg" alt="Magnum Coffee powder">
+        <a href="#">Magnum Coffee Powder: ₹899</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Gifts</h2>
+    <h3>Need a gift for a coffee lover? We've got you covered!</h3>
+    <ul>
+      <li>
+        <img src="gif3.jpg" alt="French Press Coffee Maker">
+        <a href="#">French Press Coffee Maker: ₹1299</a>
+      </li>
+      <li>
+        <img src="gif1.jpg" alt="Sipper - 16oz Recycled coffee ground">
+        <a href="#">Sipper - 16oz Recycled Coffee Ground: ₹999</a>
+      </li>
+      <li>
+        <img src="gif2.jpg" alt="Mug 12oz Recycled coffee cup">
+        <a href="#">Mug 12oz Recycled Coffee Cup: ₹999</a>
+      </li>
+      <li>
+        <img src="gif4.jpg" alt="Sipper - Blue Hexagon Glitter">
+        <a href="#">Sipper - Blue Hexagon Glitter with Golden Lid: ₹599</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="order-form">
+    <h2>Order Form</h2>
+    <p>Ready to place your order? Fill out the form below:</p>
+    <form id="orderForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="address">Shipping Address:</label>
+      <textarea id="address" name="address" required></textarea><br>
+
+      <label for="product">Product:</label>
+      <select id="product" name="product">
+        <option value="Dark Forest Coffee Powder">Dark Forest Coffee Powder</option>
+        <option value="Coffee Capsulate Estate Blend">Coffee Capsulate Estate Blend</option>
+        <option value="Filta Fresh (classic)">Filta Fresh (classic)</option>
+        <option value="Magnum Coffee Powder">Magnum Coffee Powder</option>
+        <option value="French Press Coffee Maker">French Press Coffee Maker</option>
+        <option value="Sipper - 16oz Recycled Coffee Ground">Sipper - 16oz Recycled Coffee Ground</option>
+        <option value="Mug 12oz Recycled Coffee Cup">Mug 12oz Recycled Coffee Cup</option>
+        <option value="Sipper - Blue Hexagon Glitter">Sipper - Blue Hexagon Glitter with Golden Lid</option>
+      </select><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10" required><br>
+
+      <input type="submit" value="Submit Order">
+    </form>
+  </section>
+
+  <footer class="footer">
+    <a href="Mc Coffee Roosters.html" class="button">Home</a>
+  </footer>
+
+  <!-- Link the order.js file -->
+  <script src="order.js"></script>
+</body>
+</html>
